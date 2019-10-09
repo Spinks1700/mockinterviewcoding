@@ -21,8 +21,10 @@ html {
   }
   
   .textBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     width:33.3%;
     background-color:lightgreen;
     padding:15px;
-    display:inline-block;
   }
